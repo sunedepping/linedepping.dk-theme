@@ -25,6 +25,7 @@ div#region-branding {
 h1.site-name a, h2.site-name a {
   text-decoration: none;
   font-family: 'Carrois Gothic', sans-serif;
+  font-weight: normal;
   color: #444;
   font-size: 38px;
 }
@@ -55,9 +56,14 @@ ul.menu li.expanded a {
   color: #666;
 }
 
-ul.menu li.expanded a.active {
+ul.menu li.expanded a {
 	font-weight: bold;
 }
+
+ul.menu li.expanded ul.menu li.leaf a {
+	font-weight: normal;
+}
+
 
 ul.menu li.leaf {
   font-weight: normal;
