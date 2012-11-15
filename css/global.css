@@ -30,7 +30,7 @@ h1.site-name a, h2.site-name a {
   font-size: 38px;
 }
 
-div.content {
+div.field-name-field-pictures {
 	text-align: right;
 }
 
@@ -58,10 +58,14 @@ ul.menu li.expanded a {
 
 ul.menu li.expanded a {
 	font-weight: bold;
+	font-size: 80%;
+	cursor: default;
 }
 
 ul.menu li.expanded ul.menu li.leaf a {
 	font-weight: normal;
+	font-size: 100%;
+	cursor: pointer;
 }
 
 
