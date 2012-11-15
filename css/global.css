@@ -1,6 +1,8 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic);
+
 body {
   font-family: Arial Narrow, Arial, Sans serif;
   font-size: 85%;
@@ -16,19 +18,23 @@ h1.title {
   display: none;
 }
 
-h1.site-name, h2.site-name {
-  font-weight: 200;
-  font-size: 40px;
+div#region-branding {
+	margin-top: 40px;
 }
 
 h1.site-name a, h2.site-name a {
   text-decoration: none;
-  color: black;
+  font-family: 'Carrois Gothic', sans-serif;
+  color: #444;
+  font-size: 38px;
+}
+
+div.content {
+	text-align: right;
 }
 
 div.field-name-body {
   margin-top: 2em;
-  text-align: right;
 }
 
 #block-system-main-menu {
@@ -44,40 +50,30 @@ div.field-name-body {
   list-style-type: none;
 }
 
-li.expanded {
-  font-weight: bold;
-  font-color: black;
-}
-
-li.expanded a {
-  font-color: black;
+ul.menu li.expanded a {
   text-decoration: none;
+  color: #666;
 }
 
-li.leaf {
+ul.menu li.expanded a.active {
+	font-weight: bold;
+}
+
+ul.menu li.leaf {
   font-weight: normal;
-  margin-left: 2em;
+  margin-left: 1em;
 }
 
-li a {
-  color: black;
-}
-
-li.leaf  a {
+ul.menu li.leaf a:hover {
   text-decoration: none;
-  color: #bbb;
-}
-
-li a:hover {
-  text-decoration: underline;
   color: black;
 }
 
-li.last {
+ul.menu li.last {
   margin-bottom: 15px !important;
 }
 
-li a.active {
+ul.menu ul.menu li a.active-trail {
   color: #d3c600;
 }
 
