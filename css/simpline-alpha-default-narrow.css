@@ -2,3 +2,13 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+
+ 
+@media screen and (max-width: 480px) {
+	div#region-user-first div#block-block-1 a {
+		display:block;
+		margin: 10px 0 0 0;
+		font-size: 120%;
+		color: grey;
+	}  
+}

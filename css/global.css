@@ -93,3 +93,10 @@ div#block-views-depping-news-block li {
 	padding: 20px 0 20px 0;
 	border-bottom: 1px solid #ccc;
 }
+
+div#region-user-first div#block-block-1 a {
+	display:none;
+}
+	
+	
+	
