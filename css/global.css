@@ -97,6 +97,15 @@ div#block-views-depping-news-block li {
 div#region-user-first div#block-block-1 a {
 	display:none;
 }
+
+@media screen and (max-width: 800px) {
+	div#region-user-first div#block-block-1 a {
+		display:block;
+		margin: 10px 0 0 0;
+		font-size: 120%;
+		color: grey;
+	}  
+}
 	
 	
 	
