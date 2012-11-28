@@ -56,16 +56,9 @@ ul.menu li.expanded a {
   color: #666;
 }
 
-ul.menu li.expanded a {
+ul.menu span.nolink {
 	font-weight: bold;
 	font-size: 80%;
-	cursor: default;
-}
-
-ul.menu li.expanded ul.menu li.leaf a {
-	font-weight: normal;
-	font-size: 100%;
-	cursor: pointer;
 }
 
 
@@ -92,3 +85,11 @@ img {
 }
 
 
+img.adaptive-image {
+	height: auto;
+}
+
+div#block-views-depping-news-block li {
+	padding: 0 0 20px 0;
+	border-bottom: 1px solid #ccc;
+}
